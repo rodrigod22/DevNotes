@@ -1,6 +1,7 @@
 const initialState = {
-    list:[
-        {title: 'Primeira nota', body:'testando'}
+    list:[ 
+        {title: '0 nota1', body:'testando'},
+        {title: 'Primeira nota1', body:'testando'},
     ]
 };
 
@@ -11,7 +12,6 @@ export default (state = initialState, action) => {
 
         break;
     }
-
 
     return state;
 }
