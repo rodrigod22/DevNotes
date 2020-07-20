@@ -12,7 +12,7 @@ const PersistConfig = {
     stateReconciler: hardSet
 };
 
-const pReducer = persistReducer(persistConfig, rootReducer);
+const pReducer = persistReducer(PersistConfig, rootReducer);
 
 export const store = createStore(pReducer);
 export const persistor = persistStore(store);
