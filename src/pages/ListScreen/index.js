@@ -26,8 +26,7 @@ const list = useSelector(state => state.notes.list);
                 }}>
                     <AddButtonImage source={require('../../assets/img/more.png')} />
                 </AddButton>
-            )
-            
+            )            
         });
     }, []);
 
